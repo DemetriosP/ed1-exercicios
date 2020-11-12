@@ -1,0 +1,19 @@
+package exercicio6;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cardapio{
+	
+	private List<Cardapio> itens = new ArrayList<>();
+
+	public List<Cardapio> getItens() {
+		return itens;
+	}
+
+	public void setItens(List<Cardapio> itens) {
+		this.itens = itens;
+	}
+	
+	
+}

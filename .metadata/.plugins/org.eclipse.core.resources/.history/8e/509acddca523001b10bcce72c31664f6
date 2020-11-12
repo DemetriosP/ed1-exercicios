@@ -1,0 +1,10 @@
+package Exercicio2;
+
+public class OperacoesMatematicas {
+
+	public int somar(int numUm, int numDois) {
+		int soma = numUm + numDois;
+		return soma;
+	}
+	
+}

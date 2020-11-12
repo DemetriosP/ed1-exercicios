@@ -1,0 +1,26 @@
+package exercicio6;
+
+public class Restaurante {
+	
+	public static void main(String[] args) {
+		
+		Cardapio c = new Cardapio();
+		ItemDoCardapio item1 = new ItemDoCardapio();
+		
+		
+		item1.setNome("Arroz Pilaf");
+		item1.setValor(23.95);
+		
+		
+		
+	}
+
+}
+
+public double miniBurgers = 57.50;
+
+public double  steakhousPasta = 55.50;
+
+public double tilapiaFilet = 56.50;
+
+public double caesarSalad = 23.95;

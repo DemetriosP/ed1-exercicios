@@ -1,0 +1,80 @@
+package exercicio2;
+
+import java.util.Scanner;
+
+public class OperacoesMatematicas {
+
+	public int somar(int numUm, int numDois) {
+		int soma = numUm + numDois;
+		return soma;
+	}
+	
+	public int subtrair(int numUm, int numDois) {
+		int subtrai = numUm - numDois;
+		return subtrai;
+	}
+	
+	public int multiplicar(int numUm, int numDois) {
+		int multilicar = numUm * numDois;
+		return multilicar;
+	}
+	
+	public int dividir(int numUm, int numDois) {
+		int dividir = numUm / numDois;
+		return dividir;
+	}
+	
+	public static void main(String[] args) {
+		
+		Scanner leitura = new Scanner(System.in);
+		int numUm = 0, numDois = 0, opcao, soma, multiplica, dividi, subtrai;
+		OperacoesMatematicas calculadora = new OperacoesMatematicas();
+		
+		while(true) {
+			
+			System.out.println("Calculadora");
+			do {
+				System.out.println("Escolha uma das operações abaixo:");
+				System.out.println("1) Somar\n2) Subtrair\n3) Multiplicar\n4) Dividir\n5) Sair");
+				opcao = Integer.parseInt(leitura.next());
+			}while(opcao < 1 || opcao > 6);
+			
+			if(opcao != 5) {
+				do {
+					System.out.print("Informe o primeiro número: ");
+					numUm = Integer.parseInt(leitura.next());
+					System.out.print("Informe o segundo número: ");
+					numDois = Integer.parseInt(leitura.next());
+				}while(opcao == 4 && numDois == 0);
+			}
+			
+			switch(opcao) {
+			
+				case 1:
+					soma = calculadora.somar(numUm, numDois);
+					System.out.println("A soma dos números " + numUm + " e " + numDois + " é " + soma);
+					break;
+				case 2:
+					subtrai =calculadora.subtrair(numUm, numDois);
+					System.out.println("A subtração dos números " + numUm + " e " + numDois + " é " + subtrai);
+					break;
+				case 3:
+					multiplica = calculadora.multiplicar(numUm, numDois);
+					System.out.println("A multiplicação dos números " + numUm + " e " + numDois + " é " + multiplica);
+					break;
+				case 4:
+					dividi = calculadora.dividir(numUm, numDois);
+					System.out.println("A divisão dos números " + numUm + " e " + numDois + " é " + dividi);
+					break;
+				case 5:
+					System.exit(0);
+					break;
+				default:
+					System.out.println("Opção informava inválida!");
+					break;
+			}
+			
+		}
+		
+	}
+}

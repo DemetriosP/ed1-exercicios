@@ -1,0 +1,37 @@
+package exercicio6;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PedidoDoCliente{
+
+	private List<Double> valorPedido = new ArrayList<>();
+	
+	private List<String> nomePedido = new ArrayList<>();
+	
+	private double total = 0;
+
+	public double getTotal() {
+		return total;
+	}
+
+	public void setTotal(double total) {
+		this.total += total;
+	}
+
+	public void getValorNomePedido() {
+		for(int posicao = 0; posicao < valorPedido.size(); posicao++) {
+			System.out.println(valorPedido.get(posicao));
+			
+		}
+		
+	}
+
+	public void setValorPedido(List<Double> valorPedido) {
+		this.valorPedido = valorPedido;
+	}
+
+	public void setNomePedido(List<String> nomePedido) {
+		this.nomePedido = nomePedido;
+	}
+}

@@ -1,0 +1,11 @@
+package exercicio4;
+
+import exercicio4.Data;
+
+public class Pessoa {
+	
+	private int cpf;
+	
+	private String nome;
+	
+}

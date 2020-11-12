@@ -1,0 +1,40 @@
+package Exercicio2;
+
+import java.util.Scanner;
+
+public class OperacoesMatematicas {
+
+	public int somar(int numUm, int numDois) {
+		int soma = numUm + numDois;
+		return soma;
+	}
+	
+	public int subtrair(int numUm, int numDois) {
+		int subtrai = numUm - numDois;
+		return subtrai;
+	}
+	
+	public int multiplicar(int numUm, int numDois) {
+		int multilicar = numUm * numDois;
+		return multilicar;
+	}
+	
+	public int dividir(int numUm, int numDois) {
+		int dividir = numUm / numDois;
+		return dividir;
+	}
+	
+	public static void main() {
+		
+		Scanner leitura = new Scanner(System.in);
+		int numUm, numDois;
+		
+		while()
+		System.out.println("Calculadora");
+		System.out.println("Escolha uma das operações abaixo:");
+		System.out.println("1) Somar\n2) Subtrair\n3) Multiplicar\n4) Dividir\n5) Sair");
+		
+		
+	}
+	
+}

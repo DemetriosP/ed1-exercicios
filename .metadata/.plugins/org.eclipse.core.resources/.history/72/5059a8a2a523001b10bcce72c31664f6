@@ -1,0 +1,11 @@
+package Exercicio2;
+
+public class OperacoesMatematicas {
+
+	public double(double numUm) {
+		return numUm;
+	}
+	
+	
+
+}

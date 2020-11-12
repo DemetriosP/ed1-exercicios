@@ -1,0 +1,12 @@
+package exercicio6;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PedidoDoCliente{
+
+	private List<Double> pedidos = new ArrayList<>();
+	
+	
+	
+}

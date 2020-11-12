@@ -1,0 +1,11 @@
+package Exercicio2;
+
+public class OperacoesMatematicas {
+	
+	private double numUm;
+	
+	private int numDois;
+	
+	
+
+}

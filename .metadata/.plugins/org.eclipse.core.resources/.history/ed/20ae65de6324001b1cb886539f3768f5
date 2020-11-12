@@ -1,0 +1,11 @@
+package exercicio6;
+
+public class ItemDoCardapio{
+	
+	private String nome;
+	
+	private double valor;
+	
+	
+
+}

@@ -1,0 +1,15 @@
+package exercicio6;
+
+public class Restaurante {
+	
+	public static void main(String[] args) {
+		
+		PedidoDoCliente comanda = new PedidoDoCliente();
+		ItemDoCardapio itens = new ItemDoCardapio();
+		Cardapio c = new Cardapio();
+		
+		itens.arrozPilaf();
+
+	}
+
+}

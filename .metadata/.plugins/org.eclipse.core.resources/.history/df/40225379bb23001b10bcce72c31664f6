@@ -1,0 +1,21 @@
+package exercicio4;
+
+import java.util.Scanner;
+
+public class Cadastro {
+	
+	public static void main(String[] args) {
+		
+		Data d = new Data();
+		Pessoa p = new Pessoa();
+		Scanner leitura = new Scanner(System.in);
+		
+		System.out.println("Informe a sua data de nascimento");
+		System.out.print("Dia: ");
+		d.setDia(Integer.parseInt(leitura.next()));
+		System.out.print("Mês: ");
+		
+		System.out.print("Ano: ");
+	}
+
+}

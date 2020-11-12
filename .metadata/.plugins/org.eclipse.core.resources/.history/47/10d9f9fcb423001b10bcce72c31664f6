@@ -1,0 +1,9 @@
+package exercicio4;
+
+public class Pessoa {
+	
+	private int cpf;
+	
+	private String nome;
+	
+}

@@ -1,0 +1,77 @@
+package Exercicio1;
+
+import java.util.Scanner;
+
+public class Veiculo {
+
+	private String modelo;
+	
+	private String fabricante;
+	
+	private int ano;
+	
+	private int nPortas;
+	
+	private int nRodas;
+	
+	private String cor;
+	
+	private int mMarchas;
+	
+	public String getModelo() {
+		return modelo;
+	}
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+	public String getFabricante() {
+		return fabricante;
+	}
+	public void setFabricante(String fabricante) {
+		this.fabricante = fabricante;
+	}
+	public int getAno() {
+		return ano;
+	}
+	public void setAno(int ano) {
+		this.ano = ano;
+	}
+	public int getnPortas() {
+		return nPortas;
+	}
+	public void setnPortas(int nPortas) {
+		this.nPortas = nPortas;
+	}
+	public int getnRodas() {
+		return nRodas;
+	}
+	public void setnRodas(int nRodas) {
+		this.nRodas = nRodas;
+	}
+	public String getCor() {
+		return cor;
+	}
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+	public int getmMarchas() {
+		return mMarchas;
+	}
+	public void setmMarchas(int mMarchas) {
+		this.mMarchas = mMarchas;
+	}
+	
+	public static void main(String[] args) {
+		
+		Scanner leitura = new Scanner(System.in);
+		Veiculo carro = new Veiculo();
+
+		System.out.print("Informe o modelo do carro: ");
+		carro.setModelo(leitura.next());
+		
+		System.out.print("Informe o fabricante do carro: ");	
+		carro.setFabricante(leitura.next());
+		
+		
+	}
+}

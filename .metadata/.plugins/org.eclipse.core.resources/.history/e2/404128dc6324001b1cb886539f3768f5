@@ -1,0 +1,9 @@
+package exercicio6;
+
+public class ItemDoCardapio{
+	
+	public String nome;
+	
+	public double valor;
+
+}

@@ -1,0 +1,19 @@
+package exercicio6;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cardapio{
+	
+	private List<ItemDoCardapio> itens = new ArrayList<>();
+
+	public List<ItemDoCardapio> getItens() {
+		return itens;
+	}
+
+	public void setItens(List<ItemDoCardapio> item) {
+		if(itens.size() < 5) this.itens.addAll(item); 
+		else System.out.println("Valor maximo de itens alcançado!");
+	}
+	
+}

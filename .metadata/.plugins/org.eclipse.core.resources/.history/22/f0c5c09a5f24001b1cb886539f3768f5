@@ -1,0 +1,31 @@
+package exercicio6;
+
+public class ItemDoCardapio{
+	
+	private double arrozPilaf = 23.95;
+	
+	private double miniBurgers = 57.50;
+	
+	private double  steakhousPasta = 55.50;
+	
+	private double tilapiaFilet = 56.50;
+	
+	private double caesarSalad = 23.95;
+
+	public double getArrozPilaf() {
+		return arrozPilaf;
+	}
+
+	public void setArrozPilaf(double arrozPilaf) {
+		this.arrozPilaf = arrozPilaf;
+	}
+
+	public double getMiniBurgers() {
+		return miniBurgers;
+	}
+
+	public void setMiniBurgers(double miniBurgers) {
+		this.miniBurgers = miniBurgers;
+	}
+	
+}

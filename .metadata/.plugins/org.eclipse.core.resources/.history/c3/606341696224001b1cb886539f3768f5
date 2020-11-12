@@ -1,0 +1,7 @@
+package exercicio6;
+
+public class Cardapio{
+	
+	public ItemDoCardapio itens[] = new ItemDoCardapio[5];
+
+}

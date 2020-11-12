@@ -1,0 +1,16 @@
+package exercicio6;
+
+public class ItemDoCardapio{
+	
+	public double arrozPilaf = 23.95;
+	
+	public double miniBurgers = 57.50;
+	
+	public double  steakhousPasta = 55.50;
+	
+	public double tilapiaFilet = 56.50;
+	
+	public double caesarSalad = 23.95;
+
+	
+}

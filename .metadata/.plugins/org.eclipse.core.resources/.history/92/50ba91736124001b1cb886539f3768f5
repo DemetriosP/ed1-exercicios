@@ -1,0 +1,15 @@
+package exercicio6;
+
+public class Cardapio{
+	
+	private ItemDoCardapio itens[] = new ItemDoCardapio[5];
+
+	public ItemDoCardapio[] getItens() {
+		return itens;
+	}
+
+	public void setItens(ItemDoCardapio itens[]) {
+		this.itens = itens;
+	}
+
+}

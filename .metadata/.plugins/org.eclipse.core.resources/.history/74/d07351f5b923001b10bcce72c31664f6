@@ -1,0 +1,13 @@
+package exercicio4;
+
+public class Cadastro {
+	
+	public static void main(String[] args) {
+		
+		Data d = new Data();
+		Pessoa p = new Pessoa();
+		Scanner leitura = new Scanner(System.in);
+		
+	}
+
+}

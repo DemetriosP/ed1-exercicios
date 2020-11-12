@@ -1,0 +1,7 @@
+package Exercicio2;
+
+public class OperacoesMatematicas {
+	
+	private double numero; 
+
+}
