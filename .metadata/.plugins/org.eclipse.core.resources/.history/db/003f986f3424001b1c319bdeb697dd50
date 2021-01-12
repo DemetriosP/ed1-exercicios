@@ -1,8 +1,0 @@
-package exercicio6;
-
-import java.util.List;
-
-public class PedidoDoCliente{
-
-	List<Pedido> pedidos = new ArrayList<>();
-}
