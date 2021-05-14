@@ -1,4 +1,4 @@
-package exercicios;
+package condicionais;
 
 public class Exercicio1 {
 	

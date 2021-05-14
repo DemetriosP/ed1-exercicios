@@ -1,8 +1,8 @@
-package exercicios;
+package condicionais;
 
 import java.util.Scanner;
 
-public class Exercicio6 {
+public class Exercicio4 {
 	
 	public static void main(String[] args) {
 		
@@ -17,24 +17,13 @@ public class Exercicio6 {
 		num2 = leitura.nextInt();
 		
 		if(num1 > num2) {
-			
-			do {
-				
+			for(int i = num1; num1 >= num2; num1--) {
 				System.out.println(num1);
-				num1--;
-				
-			}while(num1 >= num2);
-			
-			
+			}
 		}else {
-			
-			do {
-				
+			for(int i = num1; num1 <= num2; num1++) {
 				System.out.println(num1);
-				num1++;
-				
-			}while(num1 <= num2);
-			
+			}
 		}
 		
 	}

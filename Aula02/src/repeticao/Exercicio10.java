@@ -1,4 +1,4 @@
-package exercicios;
+package repeticao;
 
 import java.util.Scanner;
 
